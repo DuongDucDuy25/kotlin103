@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ASM</string>
+    <string name="title_activity_man_hinh_chao1">ManHinhChao1</string>
+    <string name="title_activity_man_hinh_chao2">ManHinhChao2</string>
+    <string name="title_activity_dang_ky">DangKy</string>
+    <string name="title_activity_them_san_pham">ThemSanPham</string>
+    <string name="title_activity_sua_thong_tin_tai_khoan">SuaThongTinTaiKhoan</string>
+    <string name="title_activity_dang_nhap">DangNhap</string>
+    <string name="title_activity_danh_sach_san_pham">DanhSachSanPham</string>
+    <string name="title_activity_chi_tiet_san_pham">ChiTietSanPham</string>
+    <string name="title_activity_tim_kiem_san_pham">TimKiemSanPham</string>
+    <string name="title_activity_gio_hang">GioHang</string>
+    <string name="title_activity_gui_don_hang">GuiDonHang</string>
+    <string name="title_activity_lich_su_don_hang">LichSuDonHang</string>
+    <string name="title_activity_demo_card">DemoCard</string>
+    <string name="title_activity_thanh_toan">ThanhToan</string>
+    <string name="title_activity_thong_tin_nguoi_dung">ThongTinNguoiDung</string>
+</resources>

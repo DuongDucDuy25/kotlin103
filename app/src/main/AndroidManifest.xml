@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ASM"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".Main.ThongTinNguoiDung"
+            android:exported="false"
+            android:label="@string/title_activity_thong_tin_nguoi_dung"
+            android:theme="@style/Theme.ASM" />
+        <activity
+            android:name=".Main.GioHangActivity"
+            android:exported="false"
+            android:label="@string/title_activity_gio_hang"
+            android:theme="@style/Theme.ASM" />
+        <activity
+            android:name=".Main.ThanhToan"
+            android:exported="false"
+            android:label="@string/title_activity_thanh_toan"
+            android:theme="@style/Theme.ASM" />
+        <activity
+            android:name=".Main.DemoCard"
+            android:exported="false"
+            android:label="@string/title_activity_demo_card"
+            android:theme="@style/Theme.ASM" />
+        <activity
+            android:name=".Main.LichSuDonHang"
+            android:exported="false"
+            android:label="@string/title_activity_lich_su_don_hang"
+            android:theme="@style/Theme.ASM" />
+        <activity
+            android:name=".Main.GuiDonHang"
+            android:exported="false"
+            android:label="@string/title_activity_gui_don_hang"
+            android:theme="@style/Theme.ASM" />
+        <activity
+            android:name=".Main.GioHang"
+            android:exported="false"
+            android:label="@string/title_activity_gio_hang"
+            android:theme="@style/Theme.ASM" />
+        <activity
+            android:name=".Main.TimKiemSanPham"
+            android:exported="false"
+            android:label="@string/title_activity_tim_kiem_san_pham"
+            android:theme="@style/Theme.ASM" />
+        <activity
+            android:name=".Main.ChiTietSanPham"
+            android:exported="false"
+            android:label="@string/title_activity_chi_tiet_san_pham"
+            android:theme="@style/Theme.ASM" />
+        <activity
+            android:name=".Main.DanhSachSanPham"
+            android:exported="false"
+            android:label="@string/title_activity_danh_sach_san_pham"
+            android:theme="@style/Theme.ASM" />
+        <activity
+            android:name=".Auth.DangNhap"
+            android:exported="false"
+            android:label="@string/title_activity_dang_nhap"
+            android:theme="@style/Theme.ASM" />
+        <activity
+            android:name=".Main.SuaThongTinTaiKhoan"
+            android:exported="false"
+            android:label="@string/title_activity_sua_thong_tin_tai_khoan"
+            android:theme="@style/Theme.ASM" />
+        <activity
+            android:name=".Main.ThemSanPham"
+            android:exported="false"
+            android:label="@string/title_activity_them_san_pham"
+            android:theme="@style/Theme.ASM" />
+        <activity
+            android:name=".Auth.DangKy"
+            android:exported="false"
+            android:label="@string/title_activity_dang_ky"
+            android:theme="@style/Theme.ASM" />
+        <activity
+            android:name=".Auth.ManHinhChao2"
+            android:exported="false"
+            android:label="@string/title_activity_man_hinh_chao2"
+            android:theme="@style/Theme.ASM" />
+        <activity
+            android:name=".Auth.ManHinhChao1"
+            android:exported="true"
+            android:label="@string/title_activity_man_hinh_chao1"
+            android:theme="@style/Theme.ASM">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ASM" />
+    </application>
+
+</manifest>
